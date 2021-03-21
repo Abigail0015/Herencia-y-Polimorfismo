@@ -4,20 +4,26 @@ package uaslp.ingenieria.labs;
 
 public class Shape {
 
+    String name;
+    int sidesCount;
+    int perimeter;
+    double area;
+
+
     public String getName() {
-        return "shape";
+        return name;
     }
 
     // Tarea
     public int getSidesCount() {
-        return 0;
+        return sidesCount;
     }
 
     public int getPerimeter() {
-        return 0;
+        return perimeter;
     }
 
     public double getArea() {
-        return 0;
+        return area;
     }
 }

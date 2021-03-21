@@ -12,7 +12,27 @@ public class Rectangle extends Shape {
         this.height = height;
     }
 
+    @Override
     public String getName() {
-        return "Rectangle";
+        return "Rectangulo";
+    }
+
+    @Override
+    public int getSidesCount() {
+        return 4;
+    }
+
+    @Override
+    public double getArea()
+    {
+        double area = (double)(base * height);
+        return area;
+    }
+
+    @Override
+    public int getPerimeter()
+    {
+        int perimeter = (int)(base * 2)+(height * 2);
+        return perimeter;
     }
 }
